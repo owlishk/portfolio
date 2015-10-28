@@ -1,4 +1,4 @@
-/*adding borders to all the images*/
+/*adding double borders to all the images*/
 img {
    padding:1px;
    border:1px solid #021a40;
@@ -22,129 +22,31 @@ header {
   text-align:center;
   background-color: #D9D9D9;
   padding:3px; 
+  border-radius:7px;
   font-family:"Helvetica", sans-serif;
 }
-
 
 /*Formatting footer*/
 footer {
   text-align:center;
   font-family:"Helvetica", sans-serif;
   font-color:#FFFFFF;
-  background-color: #000000;
+  background-color: #333333;
   padding:5px; 
+  border-radius:7px;
 }
+
+/*formatting link embedded in footer*/
+a.footerlink {
+  font-size: .8em;
+  color: #FFFFFF;
+  text-decoration:none;
+  
+}
+
 
 
 /* removes underline from linkafter clicked*/
 a:visited { 
   text-decoration: none;
 }
-
-
-
-
-/*commenting out rest
-img {
-  width: 15rem;
-}
-
-
-/*more specific takes precedence*
-a {
-  text-decoration: none;
-}
-nav a {
-  text-decoration: line-through;
-}
-
-/*more recent takes precedence*
-p {
-  color: magenta;
-}
-p {
-  color: yellow;
-}
-
-
-
-
-/*h1 headline hover
-h1:hover {
-  color: yellow;
-}
-
-/* removes underline after clicked
-a:visited { 
-  text-decoration: none;
-}
-
-header {
-  text-align: center;
-  width: 75%;
-  margin: auto;
-}
-
-article {
-  width: 60%;
-  margin: auto;
-}
-
-p::first-letter {
-  font-size: 1.5em;
-}
-
-/*footer has border and curve
-footer {
-  border: 2px solid magenta;
-  border-radius: 25px;
-}
-
-/*below is the css no longer being used
-/* creating a class called highlight
-.highlight {
- color: orange;
-}
-
-/*aside elements that have the class of highlight
-aside.highlight {
-  background-color: black;
-}
-
-/*creating an ID called homepage
-#homepage {
-  width: 80%;
-  margin: auto;
-  border: 2px solid black;
-}
-
-/*pseudo class for hover
-a:hover {
-    color: red;
-    font-size: 2em;
-}
-
-
-
-
-
-/*below is the original css
-
-
-body {
- background-color: aqua; 
-}
-h1 {
-  color: magenta;
-}
-p {
-  color: gray;
-}
-<!--two selectors one imbedded-->
-aside p {
-  color: black:
-}
-footer a {
-  color: red;
-}
-

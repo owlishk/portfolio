@@ -17,6 +17,29 @@ figcaption {
   font-style:italic;
 }
 
+/*Formatting header*/
+header {
+  text-align:center;
+  background-color: #D9D9D9;
+  padding:3px; 
+  font-family:"Helvetica", sans-serif;
+}
+
+
+/*Formatting footer*/
+footer {
+  text-align:center;
+  font-family:"Helvetica", sans-serif;
+  font-color:#FFFFFF;
+  background-color: #000000;
+  padding:5px; 
+}
+
+
+/* removes underline from linkafter clicked*/
+a:visited { 
+  text-decoration: none;
+}
 
 
 

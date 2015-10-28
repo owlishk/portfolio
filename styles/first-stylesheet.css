@@ -4,6 +4,21 @@ img {
    border:1px solid #021a40;
 }
 
+/*percentage sizing for old-timey photograph in blogpost*/
+#blogimage {
+  width:30%;
+}
+
+/*making figure captions fade a bit into background*/
+figcaption {
+  font-family:"Arial", "sans-serif";
+  color:#708090;
+  font-size:.7rem;
+  font-style:italic;
+}
+
+
+
 
 
 /*commenting out rest

@@ -13,14 +13,6 @@ p {
   font-size:1em;
 }
 
-/*NOT WORKING*/
-a.links {
-  font-family:"Droid+Sans", sans-serif;
-  text-decoration:none;
-}
-
-
-
 /*Formatting header*/
 header {
   background-image:url(../images/staples.jpg);
@@ -45,14 +37,15 @@ header h2 {
   font-size: 3em;
 }
 
+.headerlink {
+  float: right;
+  margin-top: -3rem;
+  margin-right: 1rem;
+  color: #FF430A;
+  font-family: "Arvo", serif;
+  text-decoration: none;
+}
 
-/*making figure captions fade a bit into background
-figcaption {
-  font-family:"Arial", "sans-serif";
-  color:#708090;
-  font-size:.7rem;
-  font-style:italic;
-}*/
 
 /*formatting div to be same sizes*/
 div {
@@ -77,6 +70,7 @@ div h3 {
 
 /*Formatting footer*/
 footer {
+  font-family: "Droid+Sans", sans-serif;
   clear: both;
   margin-top: 3rem;
   text-align:center;
@@ -88,8 +82,16 @@ footer {
 
 /*formatting link embedded in footer*/
 a.footerlink {
-  font-size: .8em;
+  text-decoration: none;
+  font-size: 1.2em;
   color: #FFFFFF;
   text-decoration:none;
+}
+
+footer p {
+  display: inline;
+  font-family: "Droid+Sans", sans-serif;
+  font-size: 1.2em;
+  color: white;
 }
 

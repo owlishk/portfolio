@@ -1,60 +1,89 @@
 /*formatting h2*/
 h2 {
-  font-family:"Cambria", serif;
+  font-family:"Arvo", serif;
 }
 
 h3 {
-  font-family:"Helvetica", sans-serif;
+  font-family:"Arvo", serif;
 }
 
 p {
-  font-family:"Arial", sans-serif;
+  font-family:"Inconsolata", sans-serif;
   color;#000000;
-  font-size:1rem;
+  font-size:1em;
 }
 
+/*NOT WORKING*/
 a.links {
-  font-family:"Arial", sans-serif;
+  font-family:"Droid+Sans", sans-serif;
   text-decoration:none;
 }
 
 
-/*adding double borders to all the images*/
-img {
-   padding:1px;
-   border:1px solid #021a40;
+
+/*Formatting header*/
+header {
+  background-image:url(../images/staples.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:3px; 
+  /*border-style: solid;
+  border-radius: 2px;
+  border-color: #4AFF9B;*/
+  padding:5px; 
+  border-radius:15px;
+  height: 7rem;
+  width: 99%;
+  margin-bottom: 2rem;
 }
 
-/*percentage sizing for old-timey photograph in blogpost*/
-#blogimage {
-  width:30%;
+header h2 {
+  color: #FF430A;
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  font-size: 3em;
 }
 
-/*making figure captions fade a bit into background*/
+
+/*making figure captions fade a bit into background
 figcaption {
   font-family:"Arial", "sans-serif";
   color:#708090;
   font-size:.7rem;
   font-style:italic;
+}*/
+
+/*formatting div to be same sizes*/
+div {
+  width: 29%;
+  height: 10rem;
+  float: left;
+  text-align: center;
+  border-style: solid;
+  border-color: #CC781D;
+  border-width: 3px;
+  margin: 1rem;
 }
 
-/*Formatting header*/
-header {
-  text-align:center;
-  background-color: #D9D9D9;
-  padding:3px; 
-  border-radius:7px;
-  font-family:"Helvetica", sans-serif;
+div h3 {
+  padding-top: 10%;
+  overflow: hidden;
 }
+
+/*.jewelry {
+  clear: both;
+}*/
 
 /*Formatting footer*/
 footer {
+  clear: both;
+  margin-top: 3rem;
   text-align:center;
-  font-family:"Helvetica", sans-serif;
-  font-color:#FFFFFF;
-  background-color: #333333;
+  color: grey;
+  background-color: #4AFF9B;
   padding:5px; 
-  border-radius:7px;
+  height: 3rem;
 }
 
 /*formatting link embedded in footer*/

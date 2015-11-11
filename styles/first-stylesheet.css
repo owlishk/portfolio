@@ -7,26 +7,18 @@ h3 {
   font-family:"Arvo", serif;
 }
 
-p {
-  font-family:"Inconsolata", sans-serif;
-  color;#000000;
-  font-size:1em;
-}
-
 /*Formatting header*/
 header {
   background-image:url(../images/staples.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding:3px; 
-  /*border-style: solid;
-  border-radius: 2px;
-  border-color: #4AFF9B;*/
   padding:5px; 
   border-radius:15px;
   height: 7rem;
   width: 99%;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 
 header h2 {
@@ -35,20 +27,21 @@ header h2 {
   top: 2rem;
   left: 2rem;
   font-size: 3em;
+  width: 30%;
 }
 
+/*formatting About Alison link in header*/
 .headerlink {
   float: right;
   margin-top: -3rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
   color: #FF430A;
   font-family: "Arvo", serif;
   text-decoration: none;
 }
 
-
 /*formatting div to be same sizes*/
-div {
+div.indexpage {
   width: 29%;
   height: 10rem;
   float: left;
@@ -59,14 +52,74 @@ div {
   margin: 1rem;
 }
 
-div h3 {
-  padding-top: 10%;
+/*formatting links to specific portfolio pages. Struggling with vertical centering.*/
+div a {
+  height: 10rem;
+  line-height: 10rem;
+  white-space: nowrap;
+  font-family:"Arvo", serif;
+  text-decoration: none;
+  color: black;
   overflow: hidden;
 }
 
-/*.jewelry {
-  clear: both;
-}*/
+/*formatting background image for about page*/
+.aboutbody {
+  background-image:url(../images/smiling-rock.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+
+/*formatting aside on about page*/
+aside {
+  float: left;
+  font-family: "Droid+Sans", sans-serif;
+  color: white;
+  width: 30%;
+  background: rgba(0,0,0,0.50); 
+  padding: 1rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+/*formatting link to project page*/
+aside a {
+  text-decoration: none;
+  font-family: "Droid+Sans", sans-serif;
+  font-size: .8rem;
+  color: white;
+  margin-top: 5rem;
+}
+
+.selfie {
+  float: left;
+  width: 80%;
+  height: auto;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+  border: solid;
+  border-color: white;
+  border-width: .4rem;
+}
+
+figure {
+  display: block; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+figcaption {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  font-family: "Droid+Sans", sans-serif;
+  background: rgba(0,0,0,0.50); 
+  color: white; 
+  padding: 10px 20px;
+}
 
 /*Formatting footer*/
 footer {
@@ -88,6 +141,7 @@ a.footerlink {
   text-decoration:none;
 }
 
+/*formatting separator in footer*/
 footer p {
   display: inline;
   font-family: "Droid+Sans", sans-serif;

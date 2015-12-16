@@ -1,23 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans|Arvo|Inconsolata' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-    <title>Websites I've built</title>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <title>Websites Portfolio</title>
+  <style>
+    .btn {border: 1px solid magenta;}
+    </style>
+</head>
   
-  <body>
-    
-    <p>Placeholder for website project list</p>
   
-  </body>
+<body>
+  <header>  
+    <div class="container-fluid">
+      
+      <div class="jumbotron">
+        <h1>Websites, The Starter Kit</h1>
+        <p>I'm new to building websites, but I love it.</p> 
+      </div>
+      
+      <nav>
+        <ul class="nav nav-tabs">
+          <li><a href=index.html role="presentation" data-toggle="tooltip" title="Check out other stuff">Home</a></li>
+          <li><a href=about.html role="presentation" data-toggle="tooltip" title="I'm awesome!">About Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  
+  </header>
+      
+      <div class="row container">
+        <div class="col-sm-3">
+          <a href="http://owlishk.github.io/modular/" class="thumbnail"><img src="images/ski-detail.png" alt="screen shot of ski details website"></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://lindseycwilcox.github.io/clientsite2/" class="thumbnail"><img src="images/archery-site.png" alt="screen shot of archery website"></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://owlishk.github.io/corporatesite/" class="thumbnail"><img src="images/corporate-site.png" alt="screen shot of corporate website"></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="http://owlishk.github.io/mockup-practice/" class="thumbnail"><img src="images/recipe-page.png" alt="screen shot of fake recipe website"></a>
+        </div>
+      </div>
+      
+  <div class="row container">
+    <div class="col-sm-3">
+      <h3>Fake Ski Detail Website</h3>
+      <p>I used this as an opportunity to learn how to "fix" an image in the background as the user scrolled through the page.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Fake Archery Studio Website</h3>
+      <p>Class assignment. Borrowed the fixed menu on the lhs.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Corporate website</h3> 
+      <p>This is a mock up of a potential corporate website. I will probably redo it using Bootstrap so that it is more responsive.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Fake recipe site</h3> 
+      <p>Mock up of a site with shared visual language. I would never normally condone these colors.</p>
+    </div>
+  </div>
+        
   
   <footer>
-    <a href="mailto:ak314@yahoo.com?subject=Portfolio Website" class="footerlink">Contact |</a>
-    <a href=" https://twitter.com/intent/user?screen_name=gguild" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-    <p> |</p>
-    <a href="https://www.linkedin.com/in/alisonmking" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+    <nav class="navbar navbar">
+      <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li> 
+          </ul>
+
+      </div>
+    </div>
+  </nav>
   </footer>
-  
+</body>
+</html>

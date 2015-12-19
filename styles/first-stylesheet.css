@@ -41,7 +41,8 @@ header h2 {
 }
 
 /*formatting div to be same sizes*/
-div.indexpage {
+.indexpage {
+  position: relative;
   width: 29%;
   height: 10rem;
   float: left;
@@ -52,8 +53,17 @@ div.indexpage {
   margin: 1rem;
 }
 
-/*formatting links to specific portfolio pages. Struggling with vertical centering.*/
-div a {
+/*formatting links to specific portfolio pages. Added formatting so the whole div is clickable for a better UI experience and accessibility.*/
+.indexpage a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* No underlines on the link */
+  z-index: 10;  Places the link above everything else in the div */
+  background-color: #FFF; /* Fix to make div clickable in IE */
+  filter: alpha(opacity=1); /* Fix to make div clickable in IE */ 
   height: 10rem;
   line-height: 10rem;
   white-space: nowrap;
